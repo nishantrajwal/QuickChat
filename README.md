@@ -7,7 +7,6 @@
 QuickChat is a **real-time chat application** built with the **MERN** stack and **Socket.IO**, delivering instant bi-directional messaging.  
 The app has a **responsive design** for seamless cross-device usage and is **deployed globally on Vercel**.
 
-
 ---
 
 ## 🚀 Live Demo
@@ -33,6 +32,34 @@ The app has a **responsive design** for seamless cross-device usage and is **dep
 
 ---
 
+## 📸 Screenshots  
+
+<details>
+  <summary>🔐 Login Page</summary>
+  <br>
+  <p align="center">
+    <img src="./images/login.png" alt="Login Page" width="600">
+  </p>
+</details>
+
+<details>
+  <summary>💬 Chat Interface</summary>
+  <br>
+  <p align="center">
+    <img src="./images/chat.png" alt="Chat Interface" width="600">
+  </p>
+</details>
+
+---
+
+## 👨‍💻 Author
+
+- **Nishant Rajwal**  
+  📧 [nishantrajwal@gmail.com]  
+  🔗 [GitHub](https://github.com/nishantrajwal) | [LinkedIn](https://www.linkedin.com/in/nishant-rajwal-9bb5a7342/)  
+
+---
+
 ## ⚙️ Installation & Setup
 
 Run the project locally by following these steps:
@@ -51,3 +78,5 @@ npm start
 cd ../client
 npm install
 npm start
+
+
