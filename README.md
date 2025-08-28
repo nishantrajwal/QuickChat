@@ -46,7 +46,7 @@ The app has a **responsive design** for seamless cross-device usage and is **dep
   <summary>💬 Chat Interface</summary>
   <br>
   <p align="center">
-    <img src="./images/chat.png" alt="Chat Interface" width="600">
+    <img src="./images/chatContainer.png" alt="Chat Interface" width="600">
   </p>
 </details>
 
