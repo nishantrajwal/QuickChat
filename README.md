@@ -1,10 +1,12 @@
-# QuickChat  💬
+# QuickChat 💬
 
-[![Made with MERN Stack](https://img.shields.io/badge/MERN-Stack-blue)](https://mern.io/)
-[![Socket.IO](https://img.shields.io/badge/Socket.IO-real-time-chat-orange)](https://socket.io/)
-[![Deployed on Vercel](https://img.shields.io/badge/Hosted%20on-Vercel-purple)](https://vercel.com/)
+![MERN](https://img.shields.io/badge/MERN-Stack-blue)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-Real--time--chat-orange)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
 
-QuickChat is a **real-time chat application** built with the **MERN** stack and **Socket.IO**, delivering instant bi-directional messaging. The app has a **responsive design** for seamless cross-device usage and is deployed globally on **Vercel**.
+QuickChat is a **real-time chat application** built with the **MERN** stack and **Socket.IO**, delivering instant bi-directional messaging.  
+The app has a **responsive design** for seamless cross-device usage and is **deployed globally on Vercel**.
+
 
 ---
 
