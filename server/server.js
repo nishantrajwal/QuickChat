@@ -28,21 +28,21 @@ io.on("connection", (socket) => {
 
   if (userId) {
     userSocketMap[userId] = socket.id;
-    console.log("✅ Added user:", userId);
+    console.log(" Added user:", userId);
   } else {
-    console.log("⚠️ No userId received in handshake!");
+    console.log(" No userId received in handshake!");
   }
 
   // Emit online users to all connected clients
   const onlineUsers = Object.keys(userSocketMap);
-  console.log("📡 Emitting Online Users:", onlineUsers);
+  console.log(" Emitting Online Users:", onlineUsers);
   io.emit("getOnlineUsers", onlineUsers);
 
   socket.on("disconnect", () => {
-    console.log("❌ User Disconnected:", userId);
+    console.log(" User Disconnected:", userId);
     delete userSocketMap[userId];
     const updatedUsers = Object.keys(userSocketMap);
-    console.log("📉 Updated Online Users after disconnect:", updatedUsers);
+    console.log(" Updated Online Users after disconnect:", updatedUsers);
     io.emit("getOnlineUsers", updatedUsers);
   });
 });
@@ -61,14 +61,11 @@ app.use("/api/messages", messageRouter);
 // Connect to MongoDB
 await connectDB();
 
-if(process.env.NODE_ENV !== "production"){
+const PORT = process.env.PORT || 5000; // fallback for local dev
 
-    const PORT = process.env.PORT || 5000;
-    server.listen(PORT, () => {
-    console.log(`🚀 Server is running on port: ${PORT}`);
-    });
-}
+server.listen(PORT, () => {
+  console.log(` Server is running on port: ${PORT}`);
+});
 
-//Export server for Vercel
 
 export default server;
